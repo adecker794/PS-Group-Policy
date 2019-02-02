@@ -36,3 +36,5 @@ Modify everything noted in the "What you need to change" section
 Run c:\temp\scripts\newgpo\rungpo.ps1
 Then run WDRgpo.ps1 to pick up whatever didn't run
 Lastly you can run failedgporestart.ps1 to restart whatever computer didn't report
+
+The runme.bat is used if you want to run this script locally on a machine, or if you remotely PSSession or PSEXEC into a machine.
